@@ -51,11 +51,13 @@
     
     return [todoItems count];
 }
+
 -(id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
 {
     
     return [todoItems objectAtIndex:row];
 }
+
 -(void)tableView:(NSTableView *)tableView setObjectValue:(id)object forTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
 {
     
@@ -63,6 +65,7 @@
     
     [self updateChangeCount:NSChangeDone];
 }
+
 - (void)windowControllerDidLoadNib:(NSWindowController *)aController
 {
     [super windowControllerDidLoadNib:aController];
