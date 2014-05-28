@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="RONDocument">
             <connections>
+                <outlet property="itemTableView" destination="100028" id="OwG-dI-PbJ"/>
                 <outlet property="window" destination="5" id="100060"/>
             </connections>
         </customObject>
