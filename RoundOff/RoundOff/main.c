@@ -7,12 +7,15 @@
 //
 
 #include <stdio.h>
+#include <math.h>
 
 int main(int argc, const char * argv[])
 {
-
+    
+    
     // insert code here...
-    printf("Hello, World!\n");
+    printf("cosine of 1 = %f \n",cos(1));
+    printf("rounded .234 %f \n",round(.2345689));
     return 0;
 }
 
