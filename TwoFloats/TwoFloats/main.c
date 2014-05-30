@@ -11,8 +11,11 @@
 int main(int argc, const char * argv[])
 {
 
+    float newFloat1 = 2.4, newFloat2 = 5.9;
+    float sumFloat = newFloat1 + newFloat2;
+    
     // insert code here...
-    printf("Hello, World!\n");
+    printf("Sum of float %f",sumFloat);
     return 0;
 }
 
